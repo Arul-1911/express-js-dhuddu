@@ -1,0 +1,11 @@
+GET http://localhost:3600/employees
+
+###
+
+POST http://localhost:3600/employees
+Content-Type: application/json
+
+{
+   "firstname": "Arul",
+   "lastname": "Praveen"
+}
