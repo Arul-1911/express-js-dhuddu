@@ -140,3 +140,16 @@
 20240325	21:08:19	b6a8f8e1-bb97-4d40-b012-2996ee754fa0	Method:GET - path:/css/style.css origin-undefined
 20240325	21:08:38	57f518c1-767a-4263-a867-9e441075d108	Method:GET - path:/employees origin-undefined
 20240325	21:14:48	e15e7b14-0b14-4d7d-8ac3-34a4ec01a06a	Method:POST - path:/employees origin-undefined
+20240326	16:22:50	0626ae09-6c42-4f3c-b5a4-824b510e7cdb	Method:POST - path:/employees origin-undefined
+20240326	17:42:09	4ee56611-6466-4165-973a-5a49d93ff67d	Method:GET - path:/employees origin-undefined
+20240326	17:42:38	e16d265e-e7f5-4a6c-8988-7de722c59c39	Method:POST - path:/employees origin-undefined
+20240326	17:43:13	fcb186b0-4f38-4ff6-ac7d-de00528180bc	Method:POST - path:/employees origin-undefined
+20240326	17:43:58	42a9bdff-3ede-4593-b062-01a6d08b2769	Method:GET - path:/ origin-undefined
+20240326	17:43:58	b42df1c0-656d-49de-8288-2c5b663fa723	Method:GET - path:/css/style.css origin-undefined
+20240326	17:43:59	6bfb6b25-ac35-4a69-8d20-43cf89098d32	Method:GET - path:/favicon.ico origin-undefined
+20240326	17:44:01	f53a24ab-ece6-41b9-aaec-30458f2b23f2	Method:GET - path:/css/style.css origin-undefined
+20240326	17:44:24	b524c5c7-ac48-445a-b382-d31860aa4932	Method:GET - path:/employees origin-undefined
+20240326	17:44:29	ea5f73c1-4a96-4ee3-af65-09f23e092bec	Method:GET - path:/employees origin-undefined
+20240326	17:46:07	e6e88a2a-bccb-4566-b95e-79635d5cd0bc	Method:POST - path:/employees origin-undefined
+20240326	17:51:24	4bd56d11-c070-4454-8234-79489a8b72a2	Method:GET - path:/employees origin-undefined
+20240326	17:51:26	8760c584-0f9a-41e0-bc5c-70226a294728	Method:POST - path:/employees origin-undefined

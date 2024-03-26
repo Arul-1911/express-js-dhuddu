@@ -5,32 +5,21 @@ const PORT = process.env.PORT || 3600;
 const { logger } = require("./middleware/logEvents");
 const cors = require("cors");
 const { errorHandler } = require("./middleware/errorHandler");
+const corsOptions = require('./config/corsoption')
 
 //custome-Middlewares:
 app.use(logger);
 
 //third-party-middleware
-let whitelist = ["https://www.google.com", "http://localhost:3600"];
-let corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
 app.use(cors(corsOptions));
 
 //middlewares
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//routes
 app.use("/", express.static(path.join(__dirname, "./public")));
-app.use("/subdir", express.static(path.join(__dirname, "./public")));
 app.use("/", require("./routes/root"));
-app.use("/subdir", require("./routes/subdir"));
 app.use("/employees", require("./routes/api/employees"));
 
 app.all("*", (req, res) => {
@@ -45,4 +34,6 @@ app.all("*", (req, res) => {
 });
 
 app.use(errorHandler);
+
+//listening port
 app.listen(PORT, () => console.log(`port running on ${PORT}`));
